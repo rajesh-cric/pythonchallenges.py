@@ -4,7 +4,7 @@ s=[]
 k=[]
 
 for i in range(0,r):
-    w=int(input("number "+str(i+1)+":"))
+    w=eval(input("number "+str(i+1)+":"))
     s.append(w)
 for i in range(0,r):
     x=input("string "+str(i+1)+":")
